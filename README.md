@@ -12,7 +12,7 @@ down to a pair consisting of the integer and its repetition count, like this:
 ((5,2), (6, 3), 7, (8,4), 9)
 ```
 
-Scala's pattern matching isn't as comprehensive as Elixirs, and its
+Scala's pattern matching isn't as comprehensive as Elixir's, and its
 static typing means we can't trivially interchange 2-Tuples and Ints.
 So the result isn't as compact.
 
