@@ -1,6 +1,8 @@
 package org.pigsaw.listencoding
 
-case class Encoding(num: Int, freq: Int)
+case class Encoding(num: Int, freq: Int) {
+  override def toString() = s"($num,$freq)"
+}
 
 object Encoding {
   def make(s: Seq[Int]): Seq[Encoding] = s.isEmpty match {

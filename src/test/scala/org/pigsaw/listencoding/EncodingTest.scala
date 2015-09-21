@@ -18,4 +18,8 @@ class EncodingTest extends FlatSpec with ShouldMatchers {
     val seq = Seq(5,5,6,6,6,5)
     Encoding.make(seq) should equal (Seq(Encoding(5,2), Encoding(6,3), Encoding(5,1)))
   }
+
+  "toString" should "print nicely" in {
+    Encoding(3,4).toString should equal ("(3,4)")
+  }
 }
