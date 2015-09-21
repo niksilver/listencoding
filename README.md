@@ -32,8 +32,8 @@ Welcome to Scala version 2.11.7 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_4
 scala> import org.pigsaw.listencoding._
 import org.pigsaw.listencoding._
 
-scala> Encoding.make(List(4,4,4,6,7,6,6,6))
-res0: Seq[org.pigsaw.listencoding.Encoding] = List((4,3), 6, 7, (6,3))
+scala> Encoding.make(List(5, 5, 6, 6, 6, 7, 8, 8, 8, 8, 9))
+res0: Seq[org.pigsaw.listencoding.Encoding] = List((5,2), (6,3), 7, (8,4), 9)
 
 scala>
 ```
