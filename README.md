@@ -6,7 +6,7 @@ Given a list of (possibly repeating) integers, such as:
 ```
 (5, 5, 6, 6, 6, 7, 8, 8, 8, 8, 9)
 ```
-we want to generate an encoding, where a repeated integers are compressed
+we want to generate an encoding, where repeated integers are compressed
 down to a pair consisting of the integer and its repetition count, like this:
 ```
 ((5,2), (6,3), 7, (8,4), 9)
