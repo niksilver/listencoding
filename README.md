@@ -1,4 +1,4 @@
-== List encoding
+## List encoding
 
 A Scala version of the problem demonstrated by Dave Thomas in
 [his Elixir talk](https://www.youtube.com/watch?v=5hDVftaPQwY?t=12m17s).
